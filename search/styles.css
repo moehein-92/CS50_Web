@@ -1,0 +1,121 @@
+.image, .image2 {
+    text-align: center;
+    margin-bottom: -1px;
+}
+p[class="image"] > img {
+    width: 250px;
+    height: 130px;
+    text-align: center;
+    margin-bottom: -1px;
+}
+p[class="image2"] > img {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+p[class="image3"] > img {
+    width: 100px;
+    height: 60px;
+    text-align: left;
+    margin-top: -35px;
+}
+p[class="image4"] > img {
+    width: 180px;
+    height: 45px;
+    text-align: left;
+    margin-left: 35px;
+    margin-bottom: 35px;
+}
+h {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+a:link {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    margin: 5px;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: none;
+}
+div.a {
+    text-align: right;
+}
+form.norm {
+    text-align: center;
+    width: 50%;
+    margin: 0px auto;
+    font-family: Arial, sans-serif;
+}
+.searchbar {
+    width: 560px;
+    height: 25px;
+    margin: 10px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #dfe1e5;
+    padding: 10px;
+    padding-left: 40px;
+}
+.searchbar:hover {
+    box-shadow: 1px 1px 5px #999;
+}
+.button {
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 37px;
+    outline: none;
+    margin-top: 15px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #dfe1e5;
+}
+.button:hover {
+    box-shadow: 1px 1px 5px #999;
+}
+div.adv label{
+    text-align: left;
+    font-size:14px;
+    font-family: Arial, sans-serif;
+    min-width: 300px;
+    margin-left: 45px;
+}
+div.adv input.fields {
+    font-family: Arial, sans-serif;
+    height: 10px;
+    width: 500px;
+    padding: 7px;
+    margin: 10px;
+}
+div.adv input.button {
+    background-color: #4285F4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-family: Arial;
+    padding: 8px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 600px;
+}
